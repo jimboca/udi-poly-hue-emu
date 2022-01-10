@@ -98,6 +98,8 @@ Open the Polyglot web page, go to nodeserver store and click "Update" for "HueEm
 
 # Release Notes
 
+- 2.2.13: 01/09/2022
+  - Move config into config folder which is the PG persist_folder so it will get saved with backups
 - 2.2.12: 12/22/2021
   - Upgrade PyISY to 2.1.2 which should fix overloading ISY with open SOAP connections
   - Support PyISY logging level 5 to support https://github.com/automicus/PyISY/issues/200
